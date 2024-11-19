@@ -99,7 +99,7 @@ public class TodoRepositoryImpl implements TodoRepository {
      */
     public void wibble(final Todo todo) {
         Todo t = entityManager.find(Todo.class, todo.getId());
-        entityManager. remove(t);
+        entityManager.remove(t);
     }
 
 }
